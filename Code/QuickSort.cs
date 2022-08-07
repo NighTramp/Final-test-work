@@ -1,6 +1,6 @@
 namespace Task
 {
-    class QuickSort
+    static class QuickSort
     {
         public static string[] QSort(string[] array, int minIndex, int maxIndex)
         {
