@@ -13,7 +13,9 @@ namespace Task
     {
         static void Main(string[] asgs)
         {
-            
+            string[] inputArray = { "123", "12", "1234", "1", "12", "123456", "123" };
+            string[] sortedArray = QuickSort.QSort(inputArray, 0, inputArray.Length - 1);
+            Console.WriteLine($"Sorted array: {string.Join(", ", sortedArray)}");
         }
     }
 }
