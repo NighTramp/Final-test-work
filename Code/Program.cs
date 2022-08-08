@@ -13,14 +13,10 @@ namespace Task
     {
         static void Main(string[] asgs)
         {
-            // string[] inputArray = { "123", "12", "1234", "1", "12", "123456", "123" };
-            // Console.WriteLine($"Input array: [ {string.Join(", ", inputArray)} ]");
-            // inputArray = QuickSort.QSort(inputArray, 0, inputArray.Length - 1);
-            // string[] outputArray = StringAnalyzer.GetStringLowerParam(inputArray, 3);
-            // Console.WriteLine($"Output array: [ {string.Join(", ", outputArray)} ]");
             UserInterface app = new UserInterface();
-            app.WriteAt("Привет, мир!", 10, 5);
+            Console.SetCursorPosition(117,1);
             Console.ReadKey();
+            Console.SetCursorPosition(0,30);
         }
     }
 }
