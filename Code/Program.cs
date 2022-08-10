@@ -14,8 +14,7 @@ namespace Task
         static void Main(string[] asgs)
         {
             UserInterface app = new UserInterface();
-            Console.SetCursorPosition(117,1);
-            Console.ReadKey();
+            System.Threading.Thread.Sleep(2000);
             Console.SetCursorPosition(0,30);
         }
     }

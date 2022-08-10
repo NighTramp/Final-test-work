@@ -9,7 +9,6 @@ namespace Task
             return new string(Enumerable.Repeat(chars, length)
             .Select(s => s[random.Next(s.Length)]).ToArray());
         }
-        
         public static string[] RandomStringArray()
         {
             int array_length = random.Next(0,11);

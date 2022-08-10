@@ -111,8 +111,6 @@ namespace Task
             WriteAt("+" + new string('-', 114) + "+", 2, 28);
 
             WriteAt("Решение:", 4, 11);
-
-            
         }   
         private void StaticMethod()
         {
